@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020
 
 The guidance in this article can be applied when using either Microsoft Purview eDiscovery (Standard) or Microsoft Purview eDiscovery (Premium) to manage investigations.
 
-Compliance boundaries create logical boundaries within an organization that control the user content locations (such as mailboxes, OneDrive accounts, and SharePoint sites) that eDiscovery managers can search. Also, compliance boundaries control who can access eDiscovery cases used to manage the legal, human resources, or other investigations within your organization. The need for compliance boundaries is often necessary for multi-national corporations that have to respect geographical boarders and regulations and for governments, which are often divided into different agencies. In Microsoft 365, compliance boundaries help you meet these requirements when performing content searches and managing investigations with eDiscovery cases.
+Compliance boundaries create logical boundaries within an organization that control the user content locations (such as mailboxes, OneDrive accounts, and SharePoint sites) that eDiscovery managers can search. Also, compliance boundaries control who can access eDiscovery cases used to manage the legal, human resources, or other investigations within your organization. The need for compliance boundaries is often necessary for multi-national corporations that have to respect geographical borders and regulations and for governments, which are often divided into different agencies. In Microsoft 365, compliance boundaries help you meet these requirements when performing content searches and managing investigations with eDiscovery cases.
   
 We use the example in the following illustration to explain how compliance boundaries work.
   
@@ -209,7 +209,7 @@ Search permissions filters also let you control where content is routed for expo
 
    If you don't specify the *Region* parameter for a search permissions filter, the organization's primary SharePoint region will be searched. Search results are exported to the closest datacenter.
 
-   To simplify the concept, the *Region* parameter controls the datacenter that is used to search for content in SharePoint and OneDrive. This doesn't apply to searching for content in Exchange because Exchange content searches aren't bound by the geographic location of datacenters. Also, the same *Region* parameter value may also dictate the datacenter that exports are routed through. This is often necessary to control the movement of data across geographic boarders.
+   To simplify the concept, the *Region* parameter controls the datacenter that is used to search for content in SharePoint and OneDrive. This doesn't apply to searching for content in Exchange because Exchange content searches aren't bound by the geographic location of datacenters. Also, the same *Region* parameter value may also dictate the datacenter that exports are routed through. This is often necessary to control the movement of data across geographic borders.
 
 > [!NOTE]
 > If you're using eDiscovery (Premium), the *Region* parameter doesn't control the region that data is exported from. Data is exported from the organization's central location. Also, searching for content in SharePoint and OneDrive isn't bound by the geographic location of datacenters. All datacenters are searched. For more information about eDiscovery (Premium), see [Overview of the eDiscovery (Premium) solution in Microsoft 365](ediscovery-overview.md).
